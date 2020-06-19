@@ -7,7 +7,7 @@ function Parent (){
 let number=React.useContext(ValueContext);
     return(
        <div>
-           Hello world from Parent {number}
+           Hello world from Parent {number[0]}
            <Child />
        </div> 
     );
