@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ValueContext from './ValueContext';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ValueContext.Provider value={45}>
     <App />
+    </ValueContext.Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
