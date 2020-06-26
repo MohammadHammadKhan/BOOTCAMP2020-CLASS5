@@ -7,9 +7,9 @@ import ValueContext from './ValueContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ValueContext.Provider value={45}>
+    {/* <ValueContext.Provider value={45}> */}
     <App />
-    </ValueContext.Provider>
+    {/* </ValueContext.Provider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
